@@ -1,0 +1,4 @@
+a -= b
+p += q*r
+kan ikke
+a -= b/c
