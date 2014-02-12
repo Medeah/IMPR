@@ -1,0 +1,22 @@
+BY: Kobenhavn  REG: Hovedstaden    # 1181239
+BY: Aarhus  REG: Midtjylland    # 242914
+BY: Odense  REG: Syddanmark    # 166305
+BY: Aalborg  REG: Nordjylland    # 123432
+BY: Esbjerg  REG: Syddanmark    # 71459
+BY: Randers  REG: Midtjylland    # 60227
+BY: Kolding   REG: Syddanmark    # 57087
+BY: Horsens  REG: Midtjylland     # 52998
+BY: Vejle  REG: Syddanmark     # 51203
+BY: Roskilde  REG: Sjaelland    # 46701
+BY: Helsingor  REG: Hovedstaden    # 46189
+BY: Herning  REG:  Midtjylland   # 45890
+BY: Horsholm  REG:  Hovedstaden   # 45816
+BY: Silkeborg  REG: Midtjylland    # 42396
+BY: Naestved  REG:  Sjaelland   # 41729
+BY: Fredericia  REG: Syddanmark    # 39513
+BY: Viborg  REG: Midtjylland    # 35656
+BY: Koege  REG:   Sjaelland  # 34937
+BY: Holstebro  REG:  Midtjylland   # 34024
+BY: Taastrup  REG:  Hovedstaden   # 32260
+BY: Slagelse  REG:  Sjaelland   #31918
+

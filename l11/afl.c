@@ -39,19 +39,20 @@ int main(void) {
   assert(0 == is_palindrome_iter(ord[1]));
   assert(0 == is_palindrome_rec(ord[1]));
   
-  assert(1 == is_palindrome_rec(ord[2]));
+  assert(1 == is_palindrome_iter(ord[2]));
   assert(1 == is_palindrome_rec(ord[2]));
   
+  assert(1 == is_palindrome_iter(ord[3]));
   assert(1 == is_palindrome_rec(ord[3]));
-  assert(1 == is_palindrome_rec(ord[3]));
 
+  assert(1 == is_palindrome_iter(ord[4]));
   assert(1 == is_palindrome_rec(ord[4]));
-  assert(1 == is_palindrome_rec(ord[4]));
 
-  assert(0 == is_palindrome_rec(ord[5]));
+  assert(0 == is_palindrome_iter(ord[5]));
   assert(0 == is_palindrome_rec(ord[5]));
 
+  assert(0 == is_palindrome_iter(ord[6]));
   assert(0 == is_palindrome_rec(ord[6]));
-  assert(0 == is_palindrome_rec(ord[6]));
+  printf("All test passed\n");
   return 0;
 }   

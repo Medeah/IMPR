@@ -51,6 +51,12 @@ void separate_code(const char *code, char *warehouse, char *id,
 int main(void)
 {
     char product_code[] = "IM1337H4CK3R";
+    
+    // http://stackoverflow.com/questions/49596/string-initialization
+    // However, according to both the C and C++ standard, if part of an array
+    // is initialized, then remaining elements of the array are default
+    // initialized. For a character array, the remaining characters are all
+    // zero initialized (i.e. null characters)
     char ware[0x10] = "", id[0x10] = "", qual[0x10] = "";
 
     separate_code(product_code, ware, id, qual);

@@ -1,0 +1,30 @@
+Programmeringsworkshop - 22.11.2013   DAT & SW.
+
+Vi tager udgangspunkt i data om de 21 største danske byer, på formatet:
+
+BY: Kobenhavn   REG: Hovedstaden    # 1181239
+BY: Aarhus      REG: Midtjylland    # 242914
+BY: Odense      REG: Syddanmark     # 166305
+...
+
+På filen data.txt.   data1.txt er en alternativ fil, som også virker.
+
+Vi læser på forskellig måde dette ind i et array af struct town.
+Og vi identificerer regionerne, og opsamler data om disse (i version 8) af programmet.
+Vi sorterer også både byer og regioner (version 7 og 9).
+Endvidere illustrerer vi dynamisk lager allokering (version 6).
+
+Version 1:  Blot struct town og konturerne af den funktione der læser data.
+Version 2:  Indlæsning af data ind i lokale variable - ikke ind i by struct endnu.
+Version 2b: Indlæsning af data ind i large_danish_town - et statisk allokeret array i main.
+Version 3:  Forsøg på kopiering af pointere til tekst, som deallokeres efterføglende. Virker ikke.
+Version 4:  Brug af strcpy til at kopiere bynavn og region navn på plads
+Version 5:  En funktion som tæller byerne introduceres
+Version 6:  Illustration af dynamisk allokering af byerne, med udgangspunkt i det fundne antal byer.
+Version 7:  Sorterer arrays af byer efter region/indbyggertal.
+Version 8:  Vi laver struct region, og opsamler visse data om byerne i region array
+Version 8a: Vi viser hvordan man kan opsamle regionsnavne fra byerne - som et alternativ til at have et fast array af regioner.
+Verison 9:  Vi sorterer regionerne, efter antal store byer. Dernæst alfabetisk.
+
+
+--Kurt Nørmark.
